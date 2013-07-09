@@ -2,6 +2,7 @@
 # bin/compile <build-dir> <cache-dir>
 
 S3_BUCKET="heroku-buildpack-nodejs"
+LP_DIR=$ROOT_DIR
 
 function error() {
   echo " !     $*" >&2
